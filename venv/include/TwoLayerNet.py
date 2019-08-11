@@ -9,4 +9,3 @@ for iteration in range(10000):
     synaptic_weights += dot(training_set_inputs.T, (training_set_outputs - output) * output * (1 - output))
 print(1 / (1 + exp(-(dot(array([1, 0, 0]), synaptic_weights)))))
 
-# Работает)))
